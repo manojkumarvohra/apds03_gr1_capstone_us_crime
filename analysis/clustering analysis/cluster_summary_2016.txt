@@ -1,0 +1,40 @@
+K-means clustering with 3 clusters of sizes 28, 3, 19
+
+Cluster means:
+  Crime_Murder_Slaughter Crime_Forcible_Rape Crime_Robbery Crime_Aggrevated_Assault
+1               97.53571             1106.25      1802.286                 5580.964
+2             1506.33333            11555.67     36093.667                79023.667
+3              519.00000             3391.00      8945.947                21347.684
+  Crime_Property Crime_Burglary Crime_Larcency Crime_Motor_Vehicle_Theft
+1       59247.61       11482.82       42162.29                   5602.50
+2      774943.00      145789.67      532837.67                  96315.67
+3      205397.74       39676.16      149053.47                  16668.11
+
+Clustering vector:
+       ALABAMA         ALASKA        ARIZONA       ARKANSAS     CALIFORNIA       COLORADO 
+             3              1              3              1              2              3 
+   CONNECTICUT       DELAWARE        FLORIDA        GEORGIA         HAWAII          IDAHO 
+             1              1              2              3              1              1 
+      ILLINOIS        INDIANA           IOWA         KANSAS       KENTUCKY      LOUISIANA 
+             3              3              1              1              1              3 
+         MAINE       MARYLAND  MASSACHUSETTS       MICHIGAN      MINNESOTA    MISSISSIPPI 
+             1              3              1              3              1              1 
+      MISSOURI        MONTANA       NEBRASKA         NEVADA  NEW HAMPSHIRE     NEW JERSEY 
+             3              1              1              1              1              3 
+    NEW MEXICO       NEW YORK NORTH CAROLINA   NORTH DAKOTA           OHIO       OKLAHOMA 
+             1              3              3              1              3              1 
+        OREGON   PENNSYLVANIA   RHODE ISLAND SOUTH CAROLINA   SOUTH DAKOTA      TENNESSEE 
+             1              3              1              3              1              3 
+         TEXAS           UTAH        VERMONT       VIRGINIA     WASHINGTON  WEST VIRGINIA 
+             2              1              1              3              3              1 
+     WISCONSIN        WYOMING 
+             1              1 
+
+Within cluster sum of squares by cluster:
+[1]  61619408116 142320551837 111467288592
+ (between_SS / total_SS =  87.7 %)
+
+Available components:
+
+[1] "cluster"      "centers"      "totss"        "withinss"     "tot.withinss" "betweenss"   
+[7] "size"         "iter"         "ifault"      
